@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title> Latihan Praktikum </title>
+        <h1><font type=arial black size="10">Menyisipkan Elemen Berupa Text</font> </h1>
+    </head>
+        <body>
+            <font type=arial black font size="7"> Data Diri</font>
+            <br>
+            <font type=arial size="5">
+                Nama : <input type="text" name="nama">
+                <br>
+                <br>
+                NIM : <input type="text" name="nim" value="" maxlength="9" size"9"> 
+            </font>
+            <br>
+            <br>
+        <h2><font type=arial black size="10">Input Password</font></h2>
+        Password : <input type="password"name="nama" size="11" maxlength="9">
+        <br>
+        <br>
+        
+        <h3><font type=arial black size="10">Penggunaan Radio Button</font></h3>
+        Jenis kelamin :
+        <br>
+        <input type="radio" name="jenis_kelamin" value="L"> Laki=Laki
+        <br>
+        <input type="radio" name="jenis_kelamin" value="P"> Perempuan
+        <br>
+        <br>
+
+        <h4><font type=arial black size="10">Penggunaan Check Box</font></h4>
+        Sebutkan hobi Anda, boleh lebih dari satu :
+        <br>
+        <input type="checkbox" name="hobi_1" value="Menonton"> Menonton
+        <br>
+        <input type="checkbox" name="hobi_2" value="Game"> Bermain Game
+        <br>
+        <input type="checkbox" name="hobi_3" value="Shopping"> Berbelanja
+        <br>
+        <input type="checkbox" name="hobi_4" value="Mancing"> Memancing
+        <br>
+        <input type="checkbox" name="hobi_5" value="Olagraga"> Berolahraga
+        <br>
+
+        <h4><font type=arial black size="10">Konfigurasi Button</font></h4>
+        <form>
+        <input type="submit" value="Kirim" name="Submit">
+        <input type="reset" value="Ulangi"name="Reset">
+        <input type="button" value="Batal" name="Cancel">
+        <input type="image" name="Gambar" img src="mars.png" width="194" heigth="90">
+        </form>
+        <br>
+        <br>
+
+        <h4><font type=arial black size="10">Membuat Text Area</font></h4>
+        Deskripsi Diri :
+        <br>
+        <textarea name="deskripsi" cols="45" rows="5" align="center"> Tuliskan deskripsi singkat tentang anda.
+        </textarea>
+        <br>
+        <br>
+
+        <h4><font type=arial black size="10">Menggunakan Menu Dropdown</font></h4>
+        <img src="mars.png" width="194" heigth="90" align="center">
+        </img>
+        <br>
+        <br>
+        Silakan pilh orientasi minat :
+        <br>
+        <select name="Orientasi Minat">
+            <option value="dg">Desain Graffis</option>
+            <Option value="pj">Programmer Java</Option>
+            <option value="sa">Sistem Analis</option>
+            <option value="ds">Dagelan Saja</option>
+        </select>
+        <br>
+        <br>
+        <select name="Orientasi Kemampuan"Multiple>
+            <option value="dg">Desain Grafis</option>
+            <option value="pj">Programmer Java</option>
+            <option value="sa">Sistem Analis</option>
+            <option value="aj">Ahli Jaringan</option>
+            <option value="it">Trainer IT</option>
+            <option value="da">Dagelan Saja</option>
+        </select>
+    </body>
